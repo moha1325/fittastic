@@ -1,0 +1,72 @@
+.topcontainer{
+    padding-top: 2em;
+    display: flex;
+    border-style: solid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100vh;
+    /* overflow: scroll; */
+    width: auto;
+}
+
+
+.photo_container{
+    margin-top: 2em;
+    height: 9.8em;
+    width: 13em;
+    border-style: solid;
+    margin-left: 2em;
+    border-style: solid;
+}
+
+.photo_container button{
+    margin-left: 4em;
+}
+
+#plus_button{
+    margin-top: 3em;
+    font-size: 1.2em;
+    background-color: lightblue;
+    border-radius: 0.5em;
+    border-width: 1px;
+}
+
+.plusbutton_container{
+    height: 20em;
+    margin-top: 2em;
+    margin-left: 2em;
+    text-align: center;
+}
+
+.photo_topcontainer{
+    border-style: solid;
+}
+
+#videocontent{
+    border-style: solid;
+    width: 100%;
+  }
+  
+.videocontainer{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding-top: 2em;
+}
+
+video, canvas{
+height: 50%;
+width: 50%;
+border-radius: 0.5em;
+}
+  
+
+#noimageyet{
+    margin-top: 2em;
+    font-size: 2em;
+    background-color: orange;
+    border-radius: 0.5em;
+    border-width: 1px;
+    /* margin-left: 16em; */
+}

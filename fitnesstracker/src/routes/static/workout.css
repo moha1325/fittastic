@@ -1,0 +1,358 @@
+.workout-container {
+  display: flex;
+  height: 100%;
+}
+
+.workout-main {
+  flex: 1;
+}
+
+.sidebar {
+  width: 300px;
+}
+
+.popup {
+  background-color: rgb(243, 244, 245);
+  padding: 20px;
+  border: 1px solid #7a97bb;
+  border-radius: 5px;
+  margin: 20px;
+
+}
+
+.fc {
+  margin-top: 1%;
+  margin-left: 2%;
+  max-height: 90vh;
+}
+
+
+@media (max-width: 768px) {
+  .workout-container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    background-color: rgb(243, 244, 245);
+    padding: 20px;
+
+  }
+}
+.padding {
+  margin-top: 10%
+}
+.popup {
+  
+  margin-bottom: 20px;
+}
+
+.error-popup {
+  border: 2px solid #b61616;
+  color: #b61616;
+  background-color: #eedcdc;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-align: center;
+}
+
+.popup label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.popup input[type="date"],
+.popup input[type="time"],
+.popup input[type="text"],
+.popup input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.time-inputs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.time-inputs input[type="time"] {
+  flex: 1;
+}
+
+.repsAndSets {
+  display: flex;
+  align-items: center;
+}
+
+.repsAndSets input {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.repsAndSets input[type="number"] {
+  width: 80px;
+}
+
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.buttons button {
+  background-color: #4caf50;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+
+.event-details-popup {
+  background-color: rgb(243, 244, 245);
+  padding: 20px;
+  border: 1px solid #7a97bb;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.event-details-popup h2 {
+  margin-bottom: 10px;
+}
+
+
+
+.event-details-popup p {
+  margin-bottom: 10px;
+}
+
+.event-details-popup strong {
+  font-weight: bold;
+}
+
+.event-details-popup ul {
+  list-style: none;
+  padding: 0;
+}
+
+.event-details-popup li {
+  margin-bottom: 5px;
+}
+
+.divider {
+  background-color: #aaa;
+  max-height: 0.5px;
+  margin: 12px;
+}
+
+.popup textarea {
+  overflow: auto; 
+  width: 100%;
+  max-width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+  box-sizing: border-box;
+
+}
+
+
+
+.notes-text{
+  white-space: pre-wrap;
+}
+
+.show-add-event {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: auto;
+
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+
+  border-color: #285482 !important; 
+  color: #285482; 
+  background-color: #eee;
+
+  border-radius: 5px;
+  color: black;
+
+  background-color: #285482;
+  color: #eee;
+  border-width: 1px;
+  padding: 10px 15px;
+  border-radius: 4px; 
+  cursor: pointer; 
+  font-size: 15px; 
+  display: block; 
+  margin: 0 auto; 
+  font-weight: bold;
+}
+
+.instructions {
+  background-color: rgb(200, 215, 229);
+  padding: 20px;
+  border: 1px solid #99b2d0;
+  border-radius: 5px;
+  margin: 20px; 
+  text-align: center; 
+  font-size: 16px;
+  color: #333;
+}
+
+
+.instructions button, .close-add{
+  background: none;
+  color: #285482;
+  border: none;
+  padding: 0;
+  font-size: 12px;
+  cursor: pointer;
+  
+}
+.close-add, .close-add:hover, .delete-type-button{
+  background: none;
+  color: #285482; 
+  border: none;
+  padding: 0;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+  display: block; 
+
+}
+
+
+.close-event-details{
+  background: none;
+  color: #285482;
+  border: none;
+  padding: 0;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  margin: auto; 
+}
+
+
+button:hover{
+  text-decoration: underline;
+}
+
+.delete-event-button:hover, .delete-type-button:hover{
+  color: red;
+}
+.delete-event-button:hover{
+  border-color: red;
+}
+
+.close-event-details, .delete-event-button, .delete-type-button {
+  background: none;
+  color: #285482;
+  border: none;
+  padding: 0;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.event-title{
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-align: center;
+  word-wrap: break-word;
+  font-weight: bold;
+}
+
+.addExerciseTypes{
+  margin: 5px;
+}
+
+.view-buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 3px;
+}
+
+.view-buttons button{
+  font-size: 12px !important;
+  font-weight: bold !important;
+  border: 1px solid #285482;
+  background-color: #eee;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+
+
+.add-type-button {
+  border-color: #285482;
+  color: #285482; 
+  background-color: #eee;
+  border-width: 1px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer; 
+  font-size: 15px;
+  display: block;
+  margin: 0 auto;
+
+}
+
+.addToCalendar{
+  background-color: #285482;
+  color: #eee;
+  border-width: 1px;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer; 
+  font-size: 15px;
+  display: block;
+  margin: 0 auto;
+  font-weight: bold;
+
+}
+
+
+
+
+input, textarea{
+  background-color: rgb(249, 249, 249);
+}
+
+.fc-event, .event-title {
+  padding: 0 1px;
+  white-space: normal;
+  word-wrap: break-word;
+  display: block; 
+}
+
+.add-header, .event-title{
+  color: #285482;
+  font-size: 24px;
+  font-weight: bold !important;
+  margin: auto;
+  display: block; 
+  text-align: center;
+  padding-bottom: 10px;
+  
+  text-decoration: 0.8px underline;
+}

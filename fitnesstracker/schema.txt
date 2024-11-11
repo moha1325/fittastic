@@ -1,0 +1,63 @@
+Users:
+collection: user_data
+format:
+{
+	"_id" : ObjectId("66294611b2ba3b9cd65ba3c6"),
+	"user_id" : "userid from auth here",
+	"data" : {
+		"weight" : "100",
+		"age" : "25",
+		"height" : "66",
+		"goal" : "maintain"
+	}
+}
+
+Diet Log: 
+collection : "dietCollection"
+format : 
+{
+    "_id" : ObjectId("661ed6a65e3fec9c68884d4a"),
+    "id" : 1,
+    "name" : "<here should be the username",
+    "diet" : [
+        {
+            "date" : "Tues Apr 23 2024",
+            "food" : [
+                {
+                    "name" : "fish",
+                    "calories" : 129.2,
+                    "carbohydrates" : 0,
+                    "cholesterol" : 56,
+                    "saturated_fat" : 0.9,
+                    "total_fat" : 2.7,
+                    "fiber" : 0,
+                    "potassium" : 203,
+                    "protein" : 27,
+                    "serving_size" : 100,
+                    "sodium" : 64,
+                    "sugar" : 0
+                },
+            ]
+        },
+        {
+            "date" : "Tues Apr 24 2024"
+            "food" : [
+                {
+                    "name" : "fish",
+                    "calories" : 129.2,
+                    "carbohydrates" : 0,
+                    "cholesterol" : 56,
+                    "saturated_fat" : 0.9,
+                    "total_fat" : 2.7,
+                    "fiber" : 0,
+                    "potassium" : 203,
+                    "protein" : 27,
+                    "serving_size" : 100,
+                    "sodium" : 64,
+                    "sugar" : 0
+                },
+            ]
+        }
+    ]
+}
+

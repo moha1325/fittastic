@@ -1,0 +1,152 @@
+.top_container{
+    font-size: 0.8em;
+    height: 100%;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-image: url(../images/Full-body-workout-training-program.webp);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+.inputinfo{
+    text-align: center;
+    font-size: 1.7em;
+    color: white;
+}
+
+.weight_container{
+    margin-top: 1em;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_items{
+    padding-top: 1em;
+    height: 100%;
+    width: auto;
+    border-style: solid;
+    border-radius: 0.9em;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.goal_container{
+    margin-top: 10px;
+    padding-top: 0;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.maintain_choice, .lose_choice, .gain_choice{
+    height: auto;
+    width: 20%;
+    border-style: solid;
+    border-radius: 0.8em;
+    background-color: lightgray;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.age_container, .inputweight_container, .height_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 1em;
+}
+
+.age_container{
+    margin-top: 2em;
+}
+
+.age_container p, .inputweight_container p, .height_container p{
+    display: inline;
+    margin-right: 1em;
+    font-size: 1.3em;
+}
+
+.age_container p{
+    margin-left: 1.5em;
+}
+
+.height_container p{
+    margin-left: 0.1em;
+}
+
+
+#age_input, #height_input, #weight_input{
+    height: 2.5em;
+    width: 20em;
+    border-radius: 0.7em;
+    border-width: 1px;
+    padding-left: 1em;
+    
+}
+
+
+.moretext_container{
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+}
+
+
+.gain_choice div, .lose_choice div, .maintain_choice div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.gain_choice .gaintext, .maintain_choice .maintaintext, .lose_choice .losetext{
+    margin-top: 1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.gain_choice .gaintext p, .maintain_choice .maintaintext p, .lose_choice .losetext p{
+    font-size: 3em;
+    padding-top: 0.3em;
+    margin-top: 0;
+}
+
+.chooseGainButton, .chooseLossButton, .chooseMaintainButton{
+    margin-top: 1em;
+    display: flex;
+}
+
+.chooseGainButton button, .chooseLossButton button, .chooseMaintainButton button{
+    margin-bottom: 1em;
+    height: 3em;
+    width: 8em;
+    border-radius: 0.9em;
+    border-width: 1px;
+    background-color: lightcyan;
+}
+
+.submitbutton_container{
+    margin-top: 1em;
+    text-align: center;
+}
+
+.submitbutton_container button{
+    height: 3em;
+    width: 8em;
+    border-radius: 0.9em;
+    border-width: 1px;
+    background-color: lightskyblue;
+}
+
